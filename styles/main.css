@@ -1,0 +1,158 @@
+body { 
+    padding-top: 80px; 
+    height: 100%;
+   background-image:url('mars2.png');
+   background-position:center;
+   background-size:cover;
+}
+
+td {
+    border: 1.5px solid black;
+    width: 25px;
+    height: 25px;
+}
+
+.key {
+	border: 1px solid black;
+	width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.btn-space {
+	margin-right: 5px;
+}
+
+#update {
+	margin-bottom: 15px; 
+	margin-top: 10px;
+}
+
+.wall {
+	transition : background-color 0.1s ease-in-out;
+	background-color: #013508;
+	border-color: #013508;
+}
+
+.none {
+	transition : background-color 0.1s ease-in-out;
+	background-color: white;
+	border-color: #79d9ce;
+}
+
+.searching {
+	transition : background-color 0.08s ease-in-out;
+	background-color: #b55ecf;
+	border-color: #b55ecf;
+}
+
+.visited {
+	transition : background-color 0.08s ease-in-out;
+	background-color: #f5a8f1;
+	border-color: #f5a8f1;
+}
+
+.success {
+	transition : background-color 0.08s ease-in-out;
+	background-color: #ffee31;
+	border-color: #ffee31;
+}
+
+.start {
+	/*background-color: green;
+	border-color: green;*/
+	background-image:url('rover.png');
+	background-position:center;
+	background-size:cover;
+}
+
+.end {
+	/*background-color: red;
+	border-color: red;*/
+	background-image:url('star9.png');
+	background-position:center;
+	background-size:cover;
+	
+}
+
+.coin{
+	/*background-color: rgb(158, 152, 231);
+	border-color: rgb(158, 152, 231);*/
+	background-image:url('signOflife.png');
+	background-position:center;
+	background-size:cover;
+	
+}
+
+/*.coin1{
+	/*background-color: rgb(30, 6, 134);
+	border-color: rgb(30, 6, 134);
+	background-image:url('water2.png');
+	background-position:center;
+	background-size:cover;
+} */
+
+#bigTableContainer {
+	margin-top: 30px;
+}
+
+.custom-section {
+	margin-bottom: 20px;
+}
+
+#modalTitleContainer {
+	padding-top: 10px;
+}
+
+#results {
+	height: 350px;
+	width: 120px;
+	background-color: #ffc107;
+	position: fixed;
+	right: 25px;
+	bottom: 10px;
+	color: rgb(7, 7, 7);
+	font-size: 25px;
+	text-align: center;
+	border: 1px dashed black;
+}
+
+#resultsIcon {
+	margin-bottom: 3px;
+	margin-top: 7px;
+	font-size: 16px;
+}
+#results1 {
+	height: 375px;
+	width: 120px;
+	background-color: #ffc107;
+	position: fixed;
+	left: 25px;
+	bottom: 10px;
+	color: rgb(7, 7, 7);
+	font-size: 25px;
+	text-align: center;
+	border: 1px dashed black;
+}
+
+#resultsIcon1 {
+	margin-bottom: 3px;
+	margin-top: 7px;
+	font-size: 16px;
+}
+
+#duration, #length {
+	padding: 10px;
+}
+
+#infoModalBtn {
+	margin-left: 830px;
+}
+
+.fun-fact {
+	color: rgb(41, 112, 192);
+}
